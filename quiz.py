@@ -31,6 +31,7 @@ class Screen(object):
         MainWindow.setObjectName("MainWindow")
         MainWindow.resize(800, 600)
         MainWindow.setFixedSize(800, 600)
+        MainWindow.setWindowIcon(QtGui.QIcon('notebook.png'))
         self.centralwidget = QtWidgets.QWidget(MainWindow)
         self.centralwidget.setStyleSheet("")
         self.centralwidget.setObjectName("centralwidget")
